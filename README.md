@@ -199,7 +199,11 @@ if you get a flyctl version that is behind the current update, it's a good idea 
 
 ### &#x1F535; best step UPDATE VERSION of FLYCTL based on applying custom settings on initial fly.io installation :
 
+discard current flyctl setup and installation
+
     ❯ killall flyctl
+
+    ❯ sudo rm -rf /usr/local/bin/fly    
 
 &#x1F527; apply the installation and setup steps as previously guided at `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`.
 
