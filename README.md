@@ -213,7 +213,7 @@ discard current flyctl setup and installation
 
         flyctl v0.2.15 darwin/arm64 Commit: 846630217aff135b32ec0d6a018cf6bdde0f1762 BuildDate: 2024-03-10T09:52:28Z
 
-### create Apps :
+### &#x1F530; create Apps :
 
     ❯ flyctl apps create --name damvfastapitest
 
@@ -227,7 +227,7 @@ check and watch for updates on the fly.io console dashboard
 </p>
 
 
-### deploy Apps :
+### &#x1F530; deploy Apps :
 
 
     ❯ flyctl deploy
@@ -302,7 +302,7 @@ check and watch for updates on the fly.io console dashboard
         Visit your newly deployed app at https://damvfastapitest.fly.dev/
 
 
-### check
+### &#x1F530; check
 
     ❯ curl -X GET https://damvfastapitest.fly.dev
 
@@ -339,7 +339,7 @@ check and watch for updates on the fly.io console dashboard
         TCP             443 => 10000    [TLS,HTTP]      False           app             sin     2  
 
 
-### open :
+### &#x1F530; open :
 
     ❯ flyctl open
 
