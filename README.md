@@ -193,46 +193,16 @@ Reference :
         flyctl v0.0.456 darwin/arm64 Commit: 43371b58 BuildDate: 2023-02-08T22:32:29Z
 
 
-Attention!
+#### Attention! :
 
 if you get a flyctl version that is behind the current update, it's a good idea to update it. Otherwise when deploying flyctl, you will get the following error message: `Error failed to launch VM: flyctl version too old, must be at least 0.1.20`
 
-customize configuration with the fly.io installation installed `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`
-
-
-
-
-
-    ❯ ls -lah /Users/<user> | grep .fly
-
-        drwx------   11 <user>  staff   352B Mar 11 11:41 .fly
-
+### best step UPDATE VERSION of FLYCTL based on applying custom settings on initial fly.io installation :
 
     ❯ killall flyctl
-    
-    
-    ❯ rm -rf /usr/local/bin/fly/.fly
 
+apply the installation and setup steps as previously guided at `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`.
 
-    ❯ sudo mv /Users/powercommerce/.fly /usr/local/bin/fly
-
-        Password:
-
-
-    ❯ sudo chmod -R 0700 /usr/local/bin/fly
-
-
-    ❯ ls -lah /usr/local/bin | grep fly
-
-        drwx------   5 powercommerce  staff   160B Mar 11 12:45 fly
-
-
-    ❯ flyctl auth login
-
-        Opening https://fly.io/app/auth/cli/0536cd82edce9a492c4dd7be56c13ab0 ...
-
-        Waiting for session... Done
-        successfully logged in as dp20bp@gmail.com
 
 
 check and watch for updates on the fly.io console dashboard
