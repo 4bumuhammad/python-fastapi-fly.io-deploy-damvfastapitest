@@ -360,6 +360,11 @@ check and watch for updates on the fly.io console dashboard
 
 ---
 
+<p align="center">
+    <img src="./gambar-petunjuk/well_done.png" alt="well_done" style="display: block; margin: 0 auto;">
+</p>
+
+
 ---
 
 
