@@ -38,7 +38,7 @@
 
     ❯ docker run -d --name fastapi_howareyou-svc -p 10000:10000 fastapi_howareyou
 
-list :
+&#x1F535; list :
 
     ❯ docker images
 
