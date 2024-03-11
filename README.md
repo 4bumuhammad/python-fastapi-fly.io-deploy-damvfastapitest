@@ -203,7 +203,18 @@ if you get a flyctl version that is behind the current update, it's a good idea 
 
 &#x1F527; apply the installation and setup steps as previously guided at `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`.
 
+#### [after successfully reinstalling flyctl]
 
+    ❯ flyctl version
+
+        flyctl v0.2.15 darwin/arm64 Commit: 846630217aff135b32ec0d6a018cf6bdde0f1762 BuildDate: 2024-03-10T09:52:28Z
+
+### create Apps :
+
+    ❯ flyctl apps create --name damvfastapitest
+
+        automatically selected personal organization: abumuhammad
+        New app created: damvfastapitest
 
 check and watch for updates on the fly.io console dashboard
 
