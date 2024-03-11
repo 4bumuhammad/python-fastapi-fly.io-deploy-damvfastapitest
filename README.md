@@ -3,7 +3,14 @@
 
 #### file structure :
 
+    ❯ tree -L 2 -I 'gambar-petunjuk|README.md'
 
+        ├── Dockerfile
+        ├── fly.toml
+        ├── main.py
+        └── requirements.txt
+
+        0 directories, 4 files
 
 
 ## Test application with Docker container
