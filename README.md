@@ -302,6 +302,13 @@ check and watch for updates on the fly.io console dashboard
         Visit your newly deployed app at https://damvfastapitest.fly.dev/
 
 
+check and watch for updates on the fly.io console dashboard
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_apps_fly.io_damvfastapitest.png" alt="ss_apps_fly.io_damvfastapitest" style="display: block; margin: 0 auto;">
+</p>
+
+
 ### &#x1F530; check
 
     ❯ curl -X GET https://damvfastapitest.fly.dev
