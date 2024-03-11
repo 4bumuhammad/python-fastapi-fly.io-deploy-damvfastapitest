@@ -197,11 +197,11 @@ Reference :
 
 if you get a flyctl version that is behind the current update, it's a good idea to update it. Otherwise when deploying flyctl, you will get the following error message: `Error failed to launch VM: flyctl version too old, must be at least 0.1.20`
 
-### best step UPDATE VERSION of FLYCTL based on applying custom settings on initial fly.io installation :
+### &#x1F535; best step UPDATE VERSION of FLYCTL based on applying custom settings on initial fly.io installation :
 
     ❯ killall flyctl
 
-apply the installation and setup steps as previously guided at `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`.
+&#x1F527; apply the installation and setup steps as previously guided at `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`.
 
 
 
