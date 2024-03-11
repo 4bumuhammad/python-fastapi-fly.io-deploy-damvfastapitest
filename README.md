@@ -184,19 +184,7 @@ Reference :
                 timeout = "2s"
 
 
-### create apps :
-
-    ❯ flyctl apps create --name damvfastapitest
-
-        Update available 0.0.456 -> v0.0.457.
-        Run "flyctl version update" to upgrade.
-        automatically selected personal organization: abumuhammad
-        New app created: damvfastapitest
-
-
-Attention!
-
-if you get a flyctl version that is behind the current update, it's a good idea to update it. Otherwise when deploying flyctl, you will get the following error message: `Error failed to launch VM: flyctl version too old, must be at least 0.1.20`
+### check version :
 
     ❯ flyctl version
 
@@ -205,24 +193,14 @@ if you get a flyctl version that is behind the current update, it's a good idea 
         flyctl v0.0.456 darwin/arm64 Commit: 43371b58 BuildDate: 2023-02-08T22:32:29Z
 
 
-update : 
+Attention!
 
-    ❯ flyctl version update
-
-        Update available 0.0.456 -> v0.2.11.
-        Run "flyctl version update" to upgrade.
-        /bin/zsh -c
-        Running automatic update [curl -L "https://fly.io/install.sh" | sh]
-        % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                        Dload  Upload   Total   Spent    Left  Speed
-        100  1735    0  1735    0     0   2301      0 --:--:-- --:--:-- --:--:--  2313
-        ######################################################################## 100.0%
-        set update channel to shell
-        flyctl was installed successfully to /Users/<user>/.fly/bin/flyctl
-        Run 'flyctl --help' to get started
-
+if you get a flyctl version that is behind the current update, it's a good idea to update it. Otherwise when deploying flyctl, you will get the following error message: `Error failed to launch VM: flyctl version too old, must be at least 0.1.20`
 
 customize configuration with the fly.io installation installed `https://github.com/4bumuhammad/fly.io-install-on-mac-m1-beginner/blob/main/README.md`
+
+
+
 
 
     ❯ ls -lah /Users/<user> | grep .fly
