@@ -72,15 +72,20 @@
 
 ---
 
-<p align="center">
-    <img src="./gambar-petunjuk/fly-io-logo.svg" alt="fly-io-logo" style="display: block; margin: 0 auto;">
-</p>
-
----
 
 #### Reset containers :
 
     ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+
+        8cc546a9a5ce
+        Untagged: fastapi_howareyou:latest
+        Deleted: sha256:5c5b70f242d6bfc0f86e99db3a94a442e3b6e0f43be1e7a87598dbc9f0fe8699
+---
+
+
+<p align="center">
+    <img src="./gambar-petunjuk/fly-io-logo.svg" alt="fly-io-logo" style="display: block; margin: 0 auto;">
+</p>
 
 ---
 
