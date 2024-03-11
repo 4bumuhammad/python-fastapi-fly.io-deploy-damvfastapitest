@@ -67,7 +67,7 @@
 - Swagger | browser
 
 <p align="center">
-    <img src="./gambar-petunjuk/s_fastapi_swagger_1.png" alt="s_fastapi_swagger_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_fastapi_swagger_1.png" alt="ss_fastapi_swagger_1" style="display: block; margin: 0 auto;">
 </p>
 
 ---
