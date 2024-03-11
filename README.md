@@ -13,10 +13,31 @@
         0 directories, 4 files
 
 
-## Test application with Docker container
 
-❯ docker build -t fastapitest . 
-❯ docker run -d --name fastapitest-svc -p 10000:10000 fastapitest
+### &#x1FAB6; code :
+
+    ❯ vim main.py
+
+        from fastapi import FastAPI
+
+        app = FastAPI()
+
+
+        @app.get('/')
+        async def root() -> str:
+            return 'How are you doing ;-)!'
+
+        if __name__ == "__main__":
+            import uvicorn
+
+            uvicorn.run(app, host="0.0.0.0", port=10000)
+
+### Test application with Docker container
+
+    ❯ docker build -t fastapi_howareyou . 
+
+    ❯ docker run -d --name fastapi_howareyou-svc -p 10000:10000 fastapi_howareyou
+
 
 ### Open Browser
 
