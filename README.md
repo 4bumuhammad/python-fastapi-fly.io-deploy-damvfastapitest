@@ -367,6 +367,13 @@ check and watch for updates on the fly.io console dashboard
 
 ---
 
+### Remove Apps : 
+
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_apps_fly.io_damvfastapitest_delete_apps_01.png" alt="ss_apps_fly.io_damvfastapitest_delete_apps_01" style="display: block; margin: 0 auto;">
+</p>
+
 
 # Install 
 
