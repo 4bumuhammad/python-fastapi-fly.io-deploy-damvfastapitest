@@ -64,6 +64,12 @@
     <img src="./gambar-petunjuk/ss_postman_how_are_you_container.png" alt="ss_postman_how_are_you_container" style="display: block; margin: 0 auto;">
 </p>
 
+- Swagger | browser
+
+<p align="center">
+    <img src="./gambar-petunjuk/s_fastapi_swagger_1.png" alt="s_fastapi_swagger_1" style="display: block; margin: 0 auto;">
+</p>
+
 ---
 
 <p align="center">
