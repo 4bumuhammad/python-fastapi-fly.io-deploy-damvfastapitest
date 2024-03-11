@@ -64,7 +64,7 @@
     <img src="./gambar-petunjuk/ss_postman_how_are_you_container.png" alt="ss_postman_how_are_you_container" style="display: block; margin: 0 auto;">
 </p>
 
-- Swagger
+- Swagger / API documentation
 
 <p align="center">
     <img src="./gambar-petunjuk/ss_fastapi_swagger_1.png" alt="ss_fastapi_swagger_1" style="display: block; margin: 0 auto;">
