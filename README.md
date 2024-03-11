@@ -78,6 +78,12 @@
 
 ---
 
+#### Reset containers :
+
+    ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+
+---
+
 ## Stages in deploying the application to fly.io
 
 
