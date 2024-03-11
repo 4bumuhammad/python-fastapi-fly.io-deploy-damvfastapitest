@@ -374,6 +374,10 @@ check and watch for updates on the fly.io console dashboard
     <img src="./gambar-petunjuk/ss_apps_fly.io_damvfastapitest_delete_apps_01.png" alt="ss_apps_fly.io_damvfastapitest_delete_apps_01" style="display: block; margin: 0 auto;">
 </p>
 
+<p align="center">
+    <img src="./gambar-petunjuk/ss_apps_fly.io_damvfastapitest_delete_apps_02.png" alt="ss_apps_fly.io_damvfastapitest_delete_apps_02" style="display: block; margin: 0 auto;">
+</p>
+
 
 # Install 
 
