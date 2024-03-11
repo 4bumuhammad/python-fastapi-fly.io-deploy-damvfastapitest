@@ -1,7 +1,7 @@
 # Python fastapi fly.io deploy damvfastapitest
 
 
-#### file structure :
+#### files structure :
 
     ❯ tree -L 2 -I 'gambar-petunjuk|README.md'
 
