@@ -38,6 +38,19 @@
 
     ❯ docker run -d --name fastapi_howareyou-svc -p 10000:10000 fastapi_howareyou
 
+list :
+
+    ❯ docker images
+
+        REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
+        fastapi_howareyou   latest    5c5b70f242d6   21 seconds ago   1.05GB
+
+
+    ❯ docker ps -a
+
+        CONTAINER ID   IMAGE               COMMAND            CREATED          STATUS          PORTS                      NAMES
+        8cc546a9a5ce   fastapi_howareyou   "python main.py"   44 seconds ago   Up 43 seconds   0.0.0.0:10000->10000/tcp   fastapi_howareyou-svc
+
 
 ### Open Browser
 
