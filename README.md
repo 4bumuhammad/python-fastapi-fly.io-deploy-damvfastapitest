@@ -16,21 +16,49 @@
 
 ### &#x1FAB6; code :
 
-    ❯ vim main.py
+- python 
 
-        from fastapi import FastAPI
+        ❯ vim main.py
 
-        app = FastAPI()
+            from fastapi import FastAPI
+
+            app = FastAPI()
 
 
-        @app.get('/')
-        async def root() -> str:
-            return 'How are you doing ;-)!'
+            @app.get('/')
+            async def root() -> str:
+                return 'How are you doing ;-)!'
 
-        if __name__ == "__main__":
-            import uvicorn
+            if __name__ == "__main__":
+                import uvicorn
 
-            uvicorn.run(app, host="0.0.0.0", port=10000)
+                uvicorn.run(app, host="0.0.0.0", port=10000)
+
+
+- Dockerfile
+
+    Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+        ❯ vim Dockerfile
+
+            FROM python:3.8
+
+            RUN useradd -ms /bin/bash user
+            USER user
+
+            WORKDIR /home/user
+
+            COPY requirements.txt .
+
+            RUN pip install -r requirements.txt && rm requirements.txt
+
+            COPY . .
+
+            EXPOSE 10000
+
+            ENTRYPOINT [ "python", "main.py"]
+
+
 
 ### Test application with Docker container
 
