@@ -52,9 +52,17 @@
         8cc546a9a5ce   fastapi_howareyou   "python main.py"   44 seconds ago   Up 43 seconds   0.0.0.0:10000->10000/tcp   fastapi_howareyou-svc
 
 
-### Open Browser
+### Test :
 
-    http://localhost:10000
+- CURL :
+
+    curl --location 'http://localhost:10000/'
+
+- Postman :
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_postman_how_are_you_container.png" alt="ss_postman_how_are_you_container" style="display: block; margin: 0 auto;">
+</p>
 
 ---
 
