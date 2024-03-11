@@ -56,7 +56,7 @@
 
 - CURL :
 
-    curl --location 'http://localhost:10000/'
+        curl --location 'http://localhost:10000/'
 
 - Postman :
 
