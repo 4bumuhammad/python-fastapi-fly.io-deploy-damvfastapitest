@@ -354,6 +354,11 @@ check and watch for updates on the fly.io console dashboard
         opening https://damvfastapitest.fly.dev/ ...
 
 
+### postman : 
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_postman_damvfastapitest.fly.dev.png" alt="ss_postman_damvfastapitest.fly.dev" style="display: block; margin: 0 auto;">
+</p>
 
 
 
