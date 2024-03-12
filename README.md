@@ -233,7 +233,7 @@ check and watch for updates on the fly.io console dashboard
     ❯ flyctl deploy
 
         ==> Verifying app config
-        Validating /Users/powercommerce/Documents/test/from-github-all/python_fastapi/fly.toml
+        Validating /Users/.../python-fastapi-fly.io-deploy-damvfastapitest/fly.toml
         ✓ Configuration is valid
         --> Verified app config
         ==> Building image
@@ -384,54 +384,4 @@ check and watch for updates on the fly.io console dashboard
 </p>
 
 
-# Install 
-
-    ❯ curl -L https://fly.io/install.sh | sh
-
-        % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                        Dload  Upload   Total   Spent    Left  Speed
-        100  1735    0  1735    0     0   2829      0 --:--:-- --:--:-- --:--:--  2844
-        ######################################################################## 100.0%
-        set update channel to shell
-        flyctl was installed successfully to /Users/powercommerce/.fly/bin/flyctl
-        Manually add the directory to your $HOME/.zshrc (or similar)
-        export FLYCTL_INSTALL="/Users/powercommerce/.fly"
-        export PATH="$FLYCTL_INSTALL/bin:$PATH"
-        Run '/Users/powercommerce/.fly/bin/flyctl --help' to get started
-
-
-
-    ❯ ls -lah | grep .fly
-
-        drwxr-xr-x    9 powercommerce  staff   288B Mar 11 16:06 .fly
-
-
-    ❯ sudo mv .fly /usr/local/bin/fly
-
-        Password:
-
-
-    ❯ ls -lah /usr/local/bin | grep fly
-
-        drwxr-xr-x   9 powercommerce  staff   288B Mar 11 16:06 fly
-
-
-    ❯ sudo chmod -R 0700 /usr/local/bin/fly
-
-
-    ❯ ls -lah /usr/local/bin | grep fly
-
-        drwx------   9 powercommerce  staff   288B Mar 11 16:06 fly
-
-
-    ❯ flyctl auth login
-
-        Opening https://fly.io/app/auth/cli/06adefcf37dc25ca5fd4bb27a2cceaa6 ...
-
-        Waiting for session... Done
-        successfully logged in as dp20bp@gmail.com
-
-
-    ❯ flyctl version
-
-        flyctl v0.2.15 darwin/arm64 Commit: 846630217aff135b32ec0d6a018cf6bdde0f1762 BuildDate: 2024-03-10T09:52:28Z
+---
